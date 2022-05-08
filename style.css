@@ -1,0 +1,510 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	min-width: 1220px;
+}
+
+#container1{
+	width: 100%;
+	height: 770px;
+	background-color: #fbfbfb;
+}
+
+
+.fixed-container {
+	width: 1220px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+#services1{
+	position: absolute;
+	top: 45px;
+	font-size: 16px;
+	font-family:'Waffle Crisp', sans-serif;
+	cursor: pointer;
+}
+
+#services2{
+	position: absolute;
+	left: 80px;
+	top: 45px;
+	color: rgb(0, 87, 184);
+	font-family: 'Waffle Crisp', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#services3{
+	position: absolute;
+	left: 180px;
+	top: 45px;
+	font-size: 16px;
+	font-family: 'Waffle Crisp', sans-serif;
+	cursor: pointer;
+}
+
+#number{
+	position: absolute;
+	left: 700px;
+	top: 45px;
+	font-size: 25px;
+	font-family: 'Waffle Crisp', sans-serif;
+	font-weight: bold;
+}
+
+#order{
+	position: absolute;
+	left:940px;
+	top: 30px;
+	font-family: 'Waffle Crisp', sans-serif;
+	font-size: 16px;
+	color: rgb(0, 87, 184);
+	border: 1px solid rgb(0, 87, 184);
+	border-radius: 7px;
+	padding: 15px 45px;
+	cursor: pointer;
+}
+
+#name{
+	position: absolute;
+	top: 300px;
+	font-weight: bold;
+	font-size: 80px;
+	font-family:'Waffle Crisp', sans-serif ;
+}
+
+#who{
+	position: absolute;
+	top:400px ;
+	font-family: 'Waffle Crisp', sans-serif;
+	font-size: 25px;
+	color: #8993ad;
+}
+
+#more{
+	position: absolute;
+	top: 470px;
+	font-size: 18px;
+	font-family: 'Waffle Crisp', sans-serif;
+	border: 1px solid #ff4e2e;
+	border: none;
+  border-radius: 7px;
+  background: #ff9900;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+	padding: 25px 70px;
+	cursor: pointer;
+}
+
+#iam{
+	position: absolute;
+	top: 130px;
+	left: 800px;
+	width: 430px;
+	height: 640px;
+	animation-name: Appearance;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+}
+@keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+
+#divblue{
+	position: absolute;
+	top: 160px;
+	left: 200px;
+	transform: rotate(-10deg);
+	width: 80px;
+	animation-name: Appearance;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+}
+@keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+#divyellow{
+	position: absolute;
+	top: 500px;
+	left: 570px;
+	transform: rotate(20deg);
+	width: 100px;
+	animation-name: Appearance;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+}
+@keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+#hesh{
+	position: absolute;
+	top:650px;
+	left: 100px;
+	transform: rotate(20deg);
+	width: 40px;
+	animation-name: Appearance;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+}
+@keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+
+#slesh{
+	position: absolute;
+	left: 550px;
+	top: 150px;
+	transform: rotate(-30deg);
+	width: 70px;
+	animation-name: Appearance;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+}
+@keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+
+
+
+#container2{
+	width: 100%;
+	height: 650px;
+	position: relative;
+}
+
+#ido{
+	position: absolute;
+	top: 100px;
+	left: 430px;
+	font-weight: bold;
+	font-size: 55px;
+	font-family:'Waffle Crisp', sans-serif;
+}
+
+#first{
+	position: absolute;
+	top: 240px;
+	left: 80px;
+	image-rendering: auto;
+}
+
+#txt1{
+	position: absolute;
+	top: 340px;
+	font-size: 20px;
+	font-family:'Waffle Crisp', sans-serif ;
+	color: #8993ad;
+}
+
+#second{
+	position: absolute;
+	left: 415px;
+	top: 240px;
+	image-rendering: auto;
+
+}
+
+#txt2{
+	position: absolute;
+	left: 320px;
+	top: 340px;
+	font-family:'Waffle Crisp', sans-serif  ;
+	font-size: 20px;
+	color: #8993ad;
+}
+
+#third{
+	position: absolute;
+	left: 720px;
+	top: 240px;
+	image-rendering: auto;
+
+}
+
+#txt3{
+	position: absolute;
+	left: 660px;
+	top: 340px;
+	font-family:'Waffle Crisp', sans-serif  ;
+	font-size: 20px;
+	color: #8993ad;
+}
+
+#fourth{
+	position: absolute;
+	left: 1010px;
+	top: 240px;
+	image-rendering: auto;
+	
+}
+
+#txt4{
+	position: absolute;
+	left: 930px;
+	top: 340px;
+	font-family:'Waffle Crisp', sans-serif  ;
+	font-size: 20px;
+	color: #8993ad;
+}
+
+
+
+#learn{
+	position: absolute;
+	top: 485px;
+	left: 450px;
+	border: 1px solid #ff4e2e;
+	padding: 25px 60px;
+	font-size: 18px;
+	font-family:'Waffle Crisp', sans-serif ;
+	border: none;
+  border-radius: 7px;
+  background: #ff9900;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+	cursor: pointer;
+}
+
+#container3{
+	width: 100%;
+	height: 870px;
+	background-color: #fbfbfb;
+	position: relative;
+}
+
+#example{
+	position: absolute;
+	left: 315px;
+	top: 105px;
+	font-size: 55px;
+	font-family:'Waffle Crisp', sans-serif  ;
+	font-weight: bold;
+}
+
+
+#arrow{
+	position: absolute;
+	top: 380px;
+	border-radius: 50px;
+	box-shadow: 10px 5px 5px grey;
+	cursor: pointer;
+}
+
+#arrow2{
+	position: absolute;
+	top: 380px;
+	left: 1140px;
+	border-radius: 50px;
+	transform: scale(-1, 1);
+	box-shadow: 10px 5px 5px grey;
+	cursor: pointer;
+}
+
+#orderProject{
+	position: absolute;
+	top: 700px;
+	left: 450px;
+	border: 1px solid #ff4e2e;
+	padding: 25px 60px;
+	font-size: 18px;
+	font-family:'Waffle Crisp', sans-serif ;
+	border: none;
+  border-radius: 7px;
+  background: #ff9900;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+	cursor: pointer;
+}
+
+
+#container4{
+	width:100%;
+	height: 370px;
+	background: linear-gradient(blue,yellow);
+}
+
+#pay{
+	padding: 90px 115px 40px 115px;
+	color: white;
+	font-family:'Waffle Crisp', sans-serif ;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+#pay2{
+	padding: 0 0 95px 115px;
+	color: white;
+	font-size: 18px;
+	font-family: 'Waffle Crisp', sans-serif;
+
+}
+
+#container5{
+	width: 100%;
+	height: 260px;
+}
+
+.servv{
+	position: absolute;
+	top: 90px;
+}
+
+	#serv{
+		color: #919ab2;
+		font-family: 'Waffle Crisp', sans-serif;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	#port{
+		color: #919ab2;
+		font-family: 'Waffle Crisp', sans-serif;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	#cost{
+		color: #919ab2;
+		font-family: 'Waffle Crisp', sans-serif;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+
+#mob{
+	position: absolute;
+	top: 80px;
+	left: 380px;
+	cursor: pointer;
+}	
+
+#num{
+	position: absolute;
+	top: 85px;
+	left: 440px;
+	font-size: 25px;
+	font-family: 'Waffle Crisp', sans-serif ;
+	cursor: pointer;
+}
+
+#em{
+	position: absolute;
+	top: 160px;
+	left: 380px;
+	cursor: pointer;
+}
+
+#email{
+	position: absolute;
+	top: 165px;
+	left: 440px;
+	font-size: 25px;
+	font-family:  'Waffle Crisp', sans-serif;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#order1{
+	position: absolute;
+	left:940px;
+	font-family: 'Waffle Crisp', sans-serif;
+	font-size: 16px;
+	padding: 15px 45px;
+	top: 80px;
+	border: none;
+  border-radius: 7px;
+  background: #ff9900;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+	cursor: pointer;
+}
+
+#order1:hover{
+	background-color: #ff6600;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+.icons >li {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.icons a {
+  position: relative;
+  top: 165px;
+  left: 420px;
+  background-color: #eee;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: background-color .3s ease-in-out;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: .25rem;
+}
+.icons a:hover {
+  background-color: #e0e0e0;
+}
+
+.icons a::before {
+  content: "";
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  left: .65rem;
+  top: .65rem;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.icons .instagram::before {
+  background-image: url("inst.png");
+}
+
+.icons .telegram::before {
+  background-image: url("tg.png");
+}
+
+
+
+#last{
+	width: 100%;
+	height: 85px;
+	background-color: #30a125;
+}
+
+#lastTxt{
+	color: white;
+	font-size: 16px;
+	font-size:  'Waffle Crisp', sans-serif;
+	text-align: center;
+	padding-top: 35px;
+}
